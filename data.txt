@@ -1,0 +1,179 @@
+1. Address: 100 Lake Street S
+   City Location: Kirkland
+   Minimum Amount of People: 5
+   Max Amount of People: 85
+   Cost Per Head: $550
+
+2. Address: 2501 148th Avenue NE
+   City Location: Bellevue
+   Minimum Amount of People: 15
+   Max Amount of People: 70
+   Cost Per Head: $750
+
+3. Address: 720 N 10th Street
+   City Location: Renton
+   Minimum Amount of People: 8
+   Max Amount of People: 45
+   Cost Per Head: $650
+
+4. Address: 1987 Homestead Road
+   City Location: Cupertino
+   Minimum Amount of People: 20
+   Max Amount of People: 90
+   Cost Per Head: $700
+
+5. Address: 123 Maple Drive
+   City Location: Maple Valley
+   Minimum Amount of People: 1
+   Max Amount of People: 30
+   Cost Per Head: $520
+
+6. Address: 450 River Park Drive
+   City Location: Kirkland
+   Minimum Amount of People: 10
+   Max Amount of People: 60
+   Cost Per Head: $580
+
+7. Address: 300 Bellevue Way NE
+   City Location: Bellevue
+   Minimum Amount of People: 25
+   Max Amount of People: 95
+   Cost Per Head: $900
+
+8. Address: 890 Sunset Blvd NE
+   City Location: Renton
+   Minimum Amount of People: 12
+   Max Amount of People: 50
+   Cost Per Head: $1000
+
+9. Address: 678 Peachtree Lane
+   City Location: Cupertino
+   Minimum Amount of People: 30
+   Max Amount of People: 100
+   Cost Per Head: $1200
+
+10. Address: 200 Oak Street
+   City Location: Maple Valley
+   Minimum Amount of People: 3
+   Max Amount of People: 75
+   Cost Per Head: $1100
+
+11. Address: 1150 Kirkland Ave
+   City Location: Kirkland
+   Minimum Amount of People: 7
+   Max Amount of People: 80
+   Cost Per Head: $530
+
+12. Address: 409 108th Ave NE
+   City Location: Bellevue
+   Minimum Amount of People: 18
+   Max Amount of People: 65
+   Cost Per Head: $640
+
+13. Address: 15 S Grady Way
+   City Location: Renton
+   Minimum Amount of People: 20
+   Max Amount of People: 55
+   Cost Per Head: $570
+
+14. Address: 500 De Anza Blvd
+   City Location: Cupertino
+   Minimum Amount of People: 10
+   Max Amount of People: 90
+   Cost Per Head: $800
+
+15. Address: 99 Wilderness Drive
+   City Location: Maple Valley
+   Minimum Amount of People: 5
+   Max Amount of People: 40
+   Cost Per Head: $1500
+
+16. Address: 222 Market Street
+   City Location: Kirkland
+   Minimum Amount of People: 2
+   Max Amount of People: 60
+   Cost Per Head: $720
+
+17. Address: 75 Bellevue Square
+   City Location: Bellevue
+   Minimum Amount of People: 15
+   Max Amount of People: 100
+   Cost Per Head: $890
+
+18. Address: 330 S 3rd Street
+   City Location: Renton
+   Minimum Amount of People: 25
+   Max Amount of People: 75
+   Cost Per Head: $520
+
+19. Address: 1020 Stevens Creek Rd
+   City Location: Cupertino
+   Minimum Amount of People: 10
+   Max Amount of People: 65
+   Cost Per Head: $650
+
+20. Address: 411 Glacier Ave
+   City Location: Maple Valley
+   Minimum Amount of People: 8
+   Max Amount of People: 95
+   Cost Per Head: $530
+
+21. Address: 600 State Street
+   City Location: Kirkland
+   Minimum Amount of People: 20
+   Max Amount of People: 80
+   Cost Per Head: $920
+
+22. Address: 258 Main Street
+   City Location: Bellevue
+   Minimum Amount of People: 18
+   Max Amount of People: 70
+   Cost Per Head: $960
+
+23. Address: 789 Rainier Ave S
+   City Location: Renton
+   Minimum Amount of People: 12
+   Max Amount of People: 55
+   Cost Per Head: $980
+
+24. Address: 146 Vineyard Lane
+   City Location: Cupertino
+   Minimum Amount of People: 3
+   Max Amount of People: 88
+   Cost Per Head: $600
+
+25. Address: 200 Cedar Park Rd
+   City Location: Maple Valley
+   Minimum Amount of People: 5
+   Max Amount of People: 60
+   Cost Per Head: $680
+
+26. Address: 880 Fifth Avenue
+   City Location: Kirkland
+   Minimum Amount of People: 30
+   Max Amount of People: 100
+   Cost Per Head: $700
+
+27. Address: 620 112th St SE
+   City Location: Bellevue
+   Minimum Amount of People: 1
+   Max Amount of People: 45
+   Cost Per Head: $510
+
+28. Address: 45 Mill Ave S
+   City Location: Renton
+   Minimum Amount of People: 18
+   Max Amount of People: 90
+   Cost Per Head: $620
+
+29. Address: 310 Applewood Dr
+   City Location: Cupertino
+   Minimum Amount of People: 2
+   Max Amount of People: 75
+   Cost Per Head: $590
+
+30. Address: 800 Valley Highway
+   City Location: Maple Valley
+   Minimum Amount of People: 10
+   Max Amount of People: 85
+   Cost Per Head: $530
