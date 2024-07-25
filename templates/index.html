@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>Real Estate Chatbot</h1>
+        </div>
+        <div class="chat-box" id="chat-box">
+            {% for message in conversation_history %}
+                <div class="chat-message {{ 'user-message' if message.role == 'user' else 'assistant-message' }}">
+                    {{ message.content }}
+                </div>
+            {% endfor %}
+            <div class="chat-loading" id="chat-loading" style="display: none;">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+        <form id="chat-form" method="POST">
+            <input type="text" name="user_input" id="user_input" placeholder="Type your message here..." required>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script>
+        document.getElementById('chat-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const userInput = document.getElementById('user_input');
+            const chatBox = document.getElementById('chat-box');
+            const loadingDots = document.getElementById('chat-loading');
+
+            // Append user message to chat
+            const userMessageDiv = document.createElement('div');
+            userMessageDiv.className = 'chat-message user-message';
+            userMessageDiv.textContent = userInput.value;
+            chatBox.appendChild(userMessageDiv);
+            userInput.value = '';
+
+            // Show loading dots
+            loadingDots.style.display = 'flex';
+
+            // Scroll to the bottom of the chat
+            chatBox.scrollTop = chatBox.scrollHeight;
+
+            // Submit the form
+            event.target.submit();
+        });
+    </script>
+</body>
+</html>

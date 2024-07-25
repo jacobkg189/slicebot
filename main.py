@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 app.secret_key = os.urandom(24)  # Secret key for session management
 
-client = OpenAI(api_key="secrets")
+client = OpenAI(api_key="sk-proj-OdO3y7uYaXvW0kC0EAD6T3BlbkFJkxJS5qNCLpABa81R7ROP")
 
 def get_additional_data(file_path):
     with open(file_path, 'r') as file:
@@ -21,7 +21,7 @@ def get_response_with_data(prompt, conversation_history):
             model="gpt-4-turbo",
             messages=[
                 {"role": "system", "content": additional_data},
-                {"role": "system", "content": "You are a real estate broker that helps customers find commercial real estate spaces. You will read in additional data that contains all the possible locations. Some of the requirements you need are location, minimum and max number of people and the cost per head. The requirements are IMPORTANT do not give recommendations that do not fit, if there are none say there are none. Don't do any calculations in front of the user."}
+                {"role": "system", "content": "You are a real estate broker that helps customers find commercial real estate spaces. You will read in additional data that contains all the possible locations. Some of the requirements you need are location, minimum and max number of people and the cost per head. The requirements are IMPORTANT do not give recommendations that do not fit, if there are none say there are none. Don't do any calculations in front of the user. If you are answering the question make it look nice and readable for the user"}
             ] + conversation_history,
             max_tokens=250
         )
