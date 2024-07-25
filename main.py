@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 app.secret_key = os.urandom(24)  # Secret key for session management
 
-client = OpenAI(api_key="sk-proj-OdO3y7uYaXvW0kC0EAD6T3BlbkFJkxJS5qNCLpABa81R7ROP")
+client = OpenAI(api_key="secret")
 
 def get_additional_data(file_path):
     with open(file_path, 'r') as file:
